@@ -1,0 +1,22 @@
+function print_subarray(arr,length){
+    /*Function to print all the subarrays given in an array
+    Input arr--> array, length -->length of an array */
+
+
+    for(var i=0;i<arr.length;i++)
+    {
+        for(var j=i;j<arr.length;j++)
+        {
+            var str="";
+            for(var k=i;k<=j;k++)
+            {
+                str=str+arr[k]+"";
+            }
+            
+            console.log(str);
+            
+        }
+    }
+    
+    
+}
