@@ -1,0 +1,29 @@
+function prime_numbers(n){
+/* Function to store first n prime_numbers in an array
+Return the array containing the prime numbers */
+
+    var a=[];
+    var x=2;
+    while(a.length<n)
+    {
+        var flag=true;
+        for(var i=2;i<x;i++)
+        {
+            if(x%i==0)
+            {
+            flag=false;
+            break;
+            }
+        }
+    
+        if(flag)
+        {
+            a.push(x);
+        }
+        x=x+1;
+    }
+    return a;
+    
+    
+    
+}
