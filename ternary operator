@@ -1,0 +1,2 @@
+var result = marks>=40?"pass":"fail"
+console.log(result)
