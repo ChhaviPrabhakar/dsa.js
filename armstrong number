@@ -1,0 +1,20 @@
+n=153
+
+var temp=n;
+var sum=0;
+var r;
+while(n>0)
+{
+  r=n%10;
+  n=Math.floor(n/10);
+  sum=sum+r*r*r;
+}
+
+if(temp==sum)
+{
+  console.log(true);
+}
+else
+{
+  console.log(false);
+}
