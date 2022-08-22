@@ -1,0 +1,11 @@
+function print_series(n){
+     /* Print the following series 
+            1 8 27 64 125 to n (including) . Note print all the numbers in a seperate line*/
+
+    for(var x=1;x*x*x<=n;x++)
+    {
+        console.log(x*x*x)
+    }
+    
+    
+}
